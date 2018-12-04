@@ -31,11 +31,15 @@
 </template>
 
 <script>
+const props = {
+  block: {
+    type: String,
+    default: null
+  }
+};
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String
-  }
+  props: props
 };
 </script>
 
